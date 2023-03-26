@@ -260,9 +260,11 @@ nav {
     max-width: 1200px;
     margin: auto;
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
     align-items: center;
   }
+
   .about-info-text {
     width: 60%;
     /* background-color: blue; */
