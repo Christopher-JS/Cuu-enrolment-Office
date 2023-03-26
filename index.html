@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enrollment Office Assistant</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav>
+        <a href="#">About</a>
+        <a href="#">Programmes</a>
+        <a href="#">Faculties</a>
+        <a href="#">Admissions</a>
+        <a href="#">Notices</a>
+        <a href="#">Contact Us</a>
+    </nav>
+
+    <div class="hero">
+        <div class="overflow"></div>
+        <div class="hero-description">
+            <div>
+                <h1>
+                Cavendish University Uganda
+            </h1>
+            <p>Cavendish University Uganda (CUU) is a leading Private University in Uganda established in 2008 and is licensed and accredited by the Uganda National Council for Higher Education (NCHE). CUU offers market-relevant and accredited academic Programmes hosted in four Faculties of Law, Science & Technology, Business & Management, and Socio-economic Sciences. In addition, we also have a School of Postgraduate Studies & Research.</p>
+            <a href="#">Enroll Today</a>
+            </div>
+        </div>
+
+        <div class="scroll">
+            <a href="#about"><img src="img/errow.png" alt="scroll-down"></a>
+       </div>
+    </div>
+
+
+    <div class="about" id="about">
+        <h2>About Cavendish</h2>
+        <p>Founded in 2008, Cavendish University Uganda is a for-profit private higher-education institution located in the urban setting of the metropolis of Kampala (population range of 1,000,000-5,000,000 inhabitants), Central Region. This institution also has a branch campus in Kampala. Officially recognized by the The National Council for Higher Education of Uganda, Cavendish University Uganda (CUU) is a small (uniRank enrollment range: 4,000-4,999 students) coeducational Ugandan higher education institution.</p>
+    </div>
+
+    <div class="about-info">
+        <!-- <div>1</div>
+        <div>2</div> -->
+        <div class="about-info-text">
+            <h1>VOTED BEST PRIVATE UNIVERSITY <br> FROM 2021</h1>
+            <p>Cavendish University was voted to be the best private university in Uganda from 2019 to 2023. Cavendish University Uganda (CUU) offers courses and programs leading to officially recognized higher education degrees such as pre-bachelor degrees (i.e. certificates, diplomas, associate or foundation), bachelor degrees, master degrees in several areas of study. See the uniRank degree levels and areas of study matrix below for further details.</p>
+        </div>
+        <!-- <div class="test">1</div> -->
+        <div class="about-info-image">
+            <img src="/img/why-cavendish.jpeg" alt="About-Image">
+        </div>
+    </div>
+
+    <!-- Chatbot section -->
+    <div class="chatbot-section" id="chatbot">
+        <img src="./img/chatbot-icon.jpeg" alt="Chat with us">
+        <p>Any Concern? Chat with us</p>
+    </div>
+
+    <!-- Chatbot Iframe from Google DialogFlow -->
+    <div class="conversation-box">
+        <div class="close-button" id="close-area">
+            <p id="cancel">X</p>
+        </div>
+        <iframe class="chatbot-box" id="chatbot-box" width="350" height="430" allow="microphone;" src="https://console.dialogflow.com/api-client/demo/embedded/faff182b-5c94-4fa1-a77d-0e15ee781acb"></iframe>
+    </div>
+
+    <footer class="footer">
+        <h3>Our Social Media</h3>
+        <div class="icons">
+                <a href="#"><img src="img/fb.png" alt="#"></a>
+                <a href="#"><img src="img/instagram.png" alt="#"></a>
+                <a href="#"><img src="img/lin(2).png" alt="#"></a>
+                <a href="#"><img src="img/tw.png" alt="#"></a>
+        </div>
+    </footer>
+
+    <script src="./index.js"></script>
+</body>
+</html>

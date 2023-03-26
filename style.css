@@ -1,0 +1,243 @@
+body{
+    margin: 0;
+    background-color: #1b3a6a;
+}
+
+nav{
+    /* background-color: red; */
+    max-width: 1200px;
+    margin: auto;
+    color: white;
+    text-decoration: none;
+    display: flex;
+    gap: 1.5rem;
+    justify-content: flex-end;
+    padding: 1rem .5rem;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+.hero {
+    position: relative;
+    background: url("./img/home-bg.jpeg");
+    background-size: cover;
+    height: 85vh;
+    display: grid;
+    gap: 2rem;
+    place-items: center;
+    text-align: center;
+    color: white;
+    margin-bottom: 3rem;
+}
+
+.overflow {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 1);
+    opacity: .5;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+}
+
+.hero-description {
+    /* background-color: red; */
+    display: grid;
+    place-items: center;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+
+.hero .hero-description div > h1 {
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+.hero .hero-description div > p {
+    font-size: 1.4rem;
+    max-width: 50rem;
+    margin-top: -1rem;
+    margin-bottom: 2rem;
+}
+
+.hero .hero-description div > a {
+    background-color: white;
+    text-decoration: none;
+    padding: 1rem 3rem;
+    color: rgb(19, 12, 61);
+    font-weight: bold;
+}
+
+.scroll{
+    /* z-index: 10; */
+    position: absolute;
+    bottom: -5%;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: -1.5rem;
+}
+
+.scroll img {
+    width: 50px;
+}
+
+.about {
+    max-width: 1200px;
+    margin: auto;
+    text-align: center;
+    justify-content: space-around;
+}
+
+.about > h2 {
+    color: rgb(255,255,255);
+    font-style: bold;
+    font-size: 2rem;
+}
+
+.about > p {
+    color: rgb(255,255,255);
+    justify-content: space-around;
+    padding: 0 1rem;
+
+}
+
+.about-info{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about-info-text {
+    width: 60%;
+    /* background-color: blue; */
+}
+
+.about-info-text> h1 {
+    /* background-color: red; */
+    color: white;
+    font-weight: 4px;
+    padding: 0rem 2rem;   
+}
+
+
+.about-info-text > p {
+    color: white;
+    font-size: 20px;
+    justify-content: space-around;
+    padding: 0rem 2rem 1rem 2rem;
+}
+
+.about-info-image{
+    padding: 4rem 2rem 2rem 2rem;
+    width: 40%;
+}
+
+.about-info-image > img {
+    width: 100%;
+    
+}
+
+.footer{
+    background-color: rgb(34,38,27);
+    padding: 1rem 0;
+}
+
+.footer > h3{
+    padding: 0px 0px 20px;
+   text-align: center;
+    color: white;
+    font-size: large;
+    
+    
+}
+.icons{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    gap: 2rem;
+
+}
+
+.icons > a {
+    text-decoration: none;
+}
+
+
+/* Styling the chatbot section */
+.chatbot-section {
+  position: fixed;
+  display: flex;
+  gap: .5rem;
+  justify-content: center;
+  align-items: center;
+  bottom: 0;
+  right: 0;
+  margin: 5px;
+}
+
+
+.chatbot-section img {
+  width: 6rem;
+  border-radius: 50%;
+}
+
+.chatbot-section p {
+  background-color: white;
+  color: #2e5984;
+  padding: 1.5rem .5rem;
+  border-radius: .5rem;
+}
+
+  /* Conversation box section */
+.conversation-box {
+    position: relative;
+    border: none;
+    border-radius: .5rem;
+    /* bottom: 5%;
+    right: 2%; */
+  }
+
+.close-button {
+  display: none;
+  background-color: #2b303e;
+  position: fixed;
+  bottom: 455px;
+  right: 2%;
+  /* display: flex; */
+  justify-content: end;
+  align-items: center;
+  width: 350px;
+  padding: 0 0rem;
+  /* padding-bottom: .80rem; */
+  padding-top: .5rem;
+}
+
+.close-button > p {
+  color: #bcd;
+  font-size: 1.5rem;
+  cursor: pointer;
+  padding: .0rem .75rem;
+  margin-top: 0rem
+}
+
+    /* Style the chatbot itself  */
+.chatbot-box {
+  display: none;
+  position: fixed;
+  border: none;
+  border-top: solid 1px #bcd;
+  border-bottom-left-radius: .5rem;
+  border-bottom-right-radius: .5rem;
+  bottom: 5%;
+  right: 2%;
+}
